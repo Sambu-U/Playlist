@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#yesButton {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#noButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+#message p {
+    font-size: 18px;
+    color: #333;
+}
+
+#message a {
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#message a:hover {
+    text-decoration: underline;
+}
